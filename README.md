@@ -1,5 +1,5 @@
 **dotnet-core-xunit-webdriver-restsharp-ui-api-testing-framework**
-Solution is running with:
+solution is running with:
 - DOTNET Core 3.1, C#
 - RestSharp
 - FluentAssertions,
@@ -20,6 +20,7 @@ Solution does not have any static code analysis tools, use what you prefer.
 ## API tests explanation
 - It uses RestSharp client. In case you have NSwag clients, it is preffered to use those installed from NuGet.
 - It makes things much simplier and requires some refactoring of ApiClient, but that is another story.
+- It contains only one API test against dummy API, and that is the reason it fails - on GET user back after POST.
 
 ---
 
